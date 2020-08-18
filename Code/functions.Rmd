@@ -110,17 +110,17 @@ add_one(12)
 
 add_one("a")
 ```
-Tips on using `stop`
-- make the error message be informative
-- always use `call. = FALSE`
-- surround strings in quotes
-- surround variable names in backticks
+Tips on using `stop`  
+- make the error message be informative  
+- always use `call. = FALSE`  
+- surround strings in quotes  
+- surround variable names in backticks  
 
 ### Returning
 
 Usually you already have an idea about what you want the function to return. There are a few cases where you might want to return early though.
 
-1.  Doe it make your code easier to read with an explicit `return()`
+1.  Does it make your code easier to read with an explicit `return()`
 2.  Do you want your function pipeable?
 
 #### Explicit return
@@ -177,8 +177,8 @@ From [R for Data Science](https://r4ds.had.co.nz/functions.html#return-values)[@
 
 To make a pipeable function there are two types of basic `return` that functions do.
 
-1. with **transformations** - the data gets transformed and then returned
-2. with **side-effects** - the data isn't transformed, instead an action is performed e.g. saving to file or making a plot. Side effect functions should return the unaltered data "invisibly" so that it can be continued in the pipeline.
+1. with **transformations** - the data gets transformed and then returned  
+2. with **side-effects** - the data isn't transformed, instead an action is performed e.g. saving to file or making a plot. Side effect functions should return the unaltered data "invisibly" so that it can be continued in the pipeline.  
 
 To return invisibly  call `invisible()` as the final line of the function body.
 
@@ -290,9 +290,9 @@ After learning about [iteration](iteration.html) we can load in all the islands 
 
 Some resources for learning more:
 
-- [R for Data Science - Functions](https://r4ds.had.co.nz/functions.html)
-- [Advanced R - Functions](https://adv-r.hadley.nz/functions.html)
-- [R Packages](https://r-pkgs.org)
+- [R for Data Science - Functions](https://r4ds.had.co.nz/functions.html)  
+- [Advanced R - Functions](https://adv-r.hadley.nz/functions.html)  
+- [R Packages](https://r-pkgs.org)  
 
 # References
 
